@@ -1,0 +1,33 @@
+{
+  "name": "cctools",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cc": "./bin/cc.js"
+  },
+  "homepage": "https://github.com/cc73-37/cctools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cc73-37/cctools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "cc73-37",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.4.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "open": "^7.0.4",
+    "ora": "^4.0.4"
+  },
+  "bundleDependencies": false,
+  "deprecated": false
+}
